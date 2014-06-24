@@ -1,5 +1,4 @@
-Setting up the environment
---------------------------
+# Setting up the environment
 
 ### LAMP
 

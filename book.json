@@ -1,0 +1,15 @@
+{
+    "name": "Rules Documentation",
+    "version": "0.0.1",
+    "description": "The Rules module allows site administrators to define conditionally executed actions based on occurring events.",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/thefubhy/rules-docs"
+    },
+    "plugins": ["disqus"],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "rules-documentation"
+        }
+    }
+}

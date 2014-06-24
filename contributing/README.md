@@ -1,5 +1,4 @@
-Contributing
-------------
+# Contributing
 
 For some time development will happen on GitHub and will be using the pull
 request model: In case you are not familiar with that, please take a few minutes

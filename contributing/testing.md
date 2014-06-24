@@ -1,15 +1,14 @@
-Executing the automated tests
------------------------------
+# Executing the automated tests
 
 This module comes with PHPUnit and Simpletest tests. You need a working Drupal 8
 installation and a checkout of the Rules module in the modules folder.
 
-##### PHPUnit
+#### PHPUnit
 
     cd /path/to/drupal-8/core
     ./vendor/bin/phpunit ../modules/rules
 
-##### Simpletest using Drush
+#### Simpletest using Drush
 
     drush test-run 'Rules, Rules conditions'
 
