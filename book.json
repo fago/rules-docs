@@ -5,11 +5,5 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/thefubhy/rules-docs"
-    },
-    "plugins": ["disqus"],
-    "pluginsConfig": {
-        "disqus": {
-            "shortName": "rules-documentation"
-        }
     }
 }
