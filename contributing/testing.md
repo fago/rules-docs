@@ -1,6 +1,6 @@
 # Executing the automated tests
 
-This module comes with PHPUnit and Simpletest tests. You need a working Drupal 8
+This module comes with PHPUnit and SimpleTest tests. You need a working Drupal 8
 installation and a checkout of the Rules module in the modules folder.
 
 #### PHPUnit
