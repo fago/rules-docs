@@ -1,6 +1,6 @@
 # Developing
 
-Once you verified everything's working properly by [running the tests](contributing/testing.md), you're ready to go!
+Once you verified everything's working properly by [running the tests](testing.md), you're ready to go!
 
 
 ### Taking a look at the issue queue
