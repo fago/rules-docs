@@ -11,9 +11,9 @@ and especially at its [System requirements section](https://drupal.org/requireme
 
 Once you've got your system ready to host Drupal 8, the next step is to go and
 clone its repository in the directory where your web server will expect it to be
-by using the following command:
+by using the following command, being careful to replace "MINOR_VERSION" and "DESTINATION_DIRECTORY" as needed:
 
-    git clone --branch 8.x http://git.drupal.org/project/drupal.git
+    git clone --branch 8.MINOR_VERSION.x http://git.drupal.org/project/drupal.git DESTINATION_DIRECTORY
 
 Please look at the [Drupal Git Instructions](https://drupal.org/project/drupal/git-instructions)
 for more information about how to clone Drupal.
@@ -21,6 +21,16 @@ for more information about how to clone Drupal.
 Once you finished cloning Drupal, set up a database for it and proceed with the
 installation: after it's completed, the only thing's missing is the Rules
 module.
+
+### Drush
+
+Installing the powerful Drupal Shell is not mandatory but it can definitely be helpful during development. At the moment of writing, there's no stable version of Drush for Drupal 8 yet -at the moment of writing the currently tagged release is 7.0.0-alpha3- so depending if you feel brave or not, you can choose either the tagged release or the bleeding development edge.
+One way or another, the recommended way to install it is through composer: **be aware that the installation is going to be global and therefore will probably override your current, stable one**. Unfortunately, due to a (temporary?) dependency-clash between Drupal 8 and Drush 7, it's not possible to just install it within your Drupal 8's vendors directory.
+So fire the following in your terminal:
+
+    composer global require drush/drush=dev-master
+
+Et voilà, the Drupal 8-compatible version of Drush will be quickly installed for you.
 
 ### Rules
 
@@ -34,10 +44,10 @@ button.
 
 That will create a copy of the Rules repository on your GitHub account. At this
 point you're ready to clone it on your working environment under the ``modules``
-directory by using the following command (don't forget to replace YOURUSER with
+directory by using the following command (don't forget to replace YOUR_USER with
 the name of your GitHub user):
 
-    git clone git@github.com:YOURUSER/rules.git
+    git clone git@github.com:YOUR_USER/rules.git
 
 ![Drupal 8 modules page](images/forked-repository.jpg)
 
