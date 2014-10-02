@@ -10,7 +10,7 @@ While the coding is done on github, the issue queue is still taken care of on dr
 
 ### Coding and Pull Request-ing
 
-Remember to create a branch before start developing! It's name should contain the issue id and a slug to tell what the thing you're working on is about, for example: **readme-2276369**.
+Remember to create a branch before start developing! It's name should contain the issue id and a slug to tell what the thing you're working on is about, for example: **2276369-readme**.
 
 Once you're done with the development, push your commits and [create a Pull Request](https://help.github.com/articles/using-pull-requests#initiating-the-pull-request) on github.
 
