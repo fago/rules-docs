@@ -5,17 +5,18 @@ installation and a checkout of the Rules module in the modules folder.
 
 #### PHPUnit
 
-    cd /path/to/drupal-8/core
-    ./vendor/bin/phpunit ../modules/rules
+    ./core/vendor/phpunit/phpunit/phpunit -c ./core/phpunit.xml.dist ./modules/rules
 
 #### Simpletest
 
 Make sure simpletest is enabled:
 
-    drush en -y simpletest
+    drush en -y simpletest rules
 
 And then run the tests
 
     drush test-run 'Rules, Rules conditions'
+
+    php ./core/scripts/run-tests.sh --verbose --color "rules"
 
 You can also execute the test cases from the web interface at ``/admin/config/development/testing``.

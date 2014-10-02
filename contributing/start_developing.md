@@ -39,7 +39,7 @@ And that's it! Your repository is up to date again so that you can start develop
 * Always cross-reference the Issue in the Pull Request and the Pull Request in
   the Issue.
 * Always create a new branch for every pull request: its name should contain a
-  brief summary of the ticket and its issue id, e.g **readme-2276369**.
+  brief summary of the ticket and its issue id, e.g **2276369-readme**.
 * Try to keep the history of your pull request as clean as possible by squashing
   your commits: you can look at the [Symfony documentation](http://symfony.com/doc/current/cmf/contributing/commits.html)
   or at the [Git book](http://git-scm.com/book/en/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages)
