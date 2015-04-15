@@ -8,6 +8,7 @@ To provide context to a Rules Plugin, for example an entity for the entity delet
  *       label = @Translation("Entity"),
  *       description = @Translation("Specifies the entity, which should be deleted permanently.")
  *     )
+ *   }
 ```
 For example:
 ```

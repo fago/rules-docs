@@ -1,8 +1,8 @@
 # Rules Data Processor Plugins
 
-Data processors are for processing the values resulting from the configured data selection - Rules implements a processor for applying offsets to date values as well as a custom-PHP-code processor.
+Data processors are for processing the values resulting from the configured data selection.
 
-To implement a Rules Data Processor Plugin, place your plugin code in ```\Drupal\{module_name}\Plugin\DataProcessor\```, for example:
+To implement a Rules Data Processor Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\DataProcessor\``` in ```{module_name}/src/Plugin/DataProcessor```, for example:
 
 ```
 /**

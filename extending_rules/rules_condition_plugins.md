@@ -1,6 +1,6 @@
 # Rules Condition Plugins
 
-To implement a Rules Condition Plugin, place your plugin code in ```\Drupal\{module_name}\Plugin\Condition\```, for example:
+To implement a Rules Condition Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\Condition\``` in ```{module_name}/src/Plugin/Condition```, for example:
 
 ```
 /**

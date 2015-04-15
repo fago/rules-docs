@@ -1,6 +1,6 @@
 # Rules Action Plugins
 
-To implement a Rules Action Plugin, place your plugin code in ```\Drupal\{module_name}\Plugin\Action\```, for example:
+To implement a Rules Action Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\Action\``` in ```{module_name}/src/Plugin/Action```, for example:
 
 ```
 /**
