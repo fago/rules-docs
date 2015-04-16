@@ -1,4 +1,6 @@
-# Rules documentation
+# Rules Documentation
+
+## Introduction
 
 The [Rules module](http://drupal.org/project/rules) allows site administrators to build flexible workflows using events, conditions, and actions (known as reactive or [ECA rules](http://http://en.wikipedia.org/wiki/Event_condition_action)).
 
@@ -12,6 +14,4 @@ Rules is also a framework used by other modules, allowing them to expose user-re
 
 If you have trouble understanding any part of the documentation, please notify those of us who work on this section by creating an issue on our [Rules documentation repository](https://github.com/fubhy/rules-docs) and clearly explain what you don't understand and why - we're happy to hear from you, your contribution helps everyone at Drupal!
 
-You can also contribute directly on our [Rules documentation repository](https://github.com/fubhy/rules-docs)
-by editing the files through the [GitHub](https://github.com/) interface directly in your browser. Alternatively, you can clone the repository and edit the book in your favorite text editor or in the official [GitBook desktop app](https://github.com/GitbookIO/editor).
-
+You can also contribute directly on our [Rules documentation repository](https://github.com/fubhy/rules-docs) by editing the files through the [GitHub](https://github.com/) interface directly in your browser. Alternatively, you can clone the repository and edit the book in your favorite text editor or in the official [GitBook desktop app](https://github.com/GitbookIO/editor).
