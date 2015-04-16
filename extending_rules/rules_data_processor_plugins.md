@@ -2,7 +2,7 @@
 
 Data processors are for processing the values resulting from the configured data selection.
 
-To implement a Rules Data Processor Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\DataProcessor\``` in ```{module_name}/src/Plugin/DataProcessor```, for example:
+To implement a Rules Data Processor Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\RulesDataProcessor\``` in ```{module_name}/src/Plugin/RulesDataProcessor```, for example:
 
 ```
 /**
