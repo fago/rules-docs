@@ -8,7 +8,7 @@ Rules can react to events occurring on your site, such as a user logging in or a
 
 Rules is also a framework used by other modules, allowing them to expose user-reconfigurable components with sets of actions and conditions that are managed in easy to import/export configuration files. Rules leverages Entity API to read and act on data and work seamlessly with all types of variables and entities.
 
-![Drupal Rules Simple Example](https://github.com/fubhy/rules-docs/blob/master/drupal_rules_simple_example.jpg)
+![Drupal Rules Simple Example](drupal_rules_simple_example.jpg)
 
 ## How to contribute to the documentation
 
