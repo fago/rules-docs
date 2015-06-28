@@ -2,7 +2,7 @@
 
 To provide context to a Rules Plugin, for example an entity for the entity delete action plugin, use the following format:
 
-```
+```php
  *   context = {
  *     "entity" = @ContextDefinition("entity",
  *       label = @Translation("Entity"),
@@ -11,7 +11,7 @@ To provide context to a Rules Plugin, for example an entity for the entity delet
  *   }
 ```
 For example:
-```
+```php
 /**
  * Provides a 'Delete entity' action.
  *

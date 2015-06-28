@@ -11,7 +11,7 @@ A good reference implementation is the EntityCreate action:
 
 The [EntityCreate](https://github.com/fago/rules/blob/8.x-3.x/src/Plugin/Action/EntityCreate.php) action doesn't contain the context annotations:
 
-```
+```php
 /**
  * Provides a generic 'Create a new entity' action.
  *
@@ -25,7 +25,7 @@ class EntityCreate extends RulesActionBase implements ContainerFactoryPluginInte
 
 Instead it references the [EntityCreateDeriver](https://github.com/fago/rules/blob/8.x-3.x/src/Plugin/Action/EntityCreateDeriver.php) who based on all entity types, provides derivatives.
 
-```
+```php
   /**
    * {@inheritdoc}
    */

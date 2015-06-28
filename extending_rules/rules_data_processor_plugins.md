@@ -4,7 +4,7 @@ Data processors are for processing the values resulting from the configured data
 
 To implement a Rules Data Processor Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\RulesDataProcessor\``` in ```{module_name}/src/Plugin/RulesDataProcessor```, for example:
 
-```
+```php
 /**
  * A data processor for applying numerical offsets.
  *
