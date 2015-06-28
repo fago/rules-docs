@@ -8,6 +8,7 @@
 * [Extending Rules](extending_rules/rules_plugins.md)
    * [Rules Condition Plugins](extending_rules/rules_condition_plugins.md)
    * [Rules Action Plugins](extending_rules/rules_action_plugins.md)
+   * [Events](extending_rules/events.md)
    * [Rules Expression Plugins](extending_rules/rules_expression_plugins.md)
    * [Rules Data Processor Plugins](extending_rules/rules_data_processor_plugins.md)
    * [Providing Context to Rules Plugins](extending_rules/providing_context_to_rules_plugins.md)
