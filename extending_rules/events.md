@@ -35,7 +35,7 @@ class UserLoginEvent extends GenericEvent {
 Invoking the event looks like this:
 
 ```php
-// Set the account twise on the event: as the main subject but also in the
+// Set the account twice on the event: as the main subject but also in the
 // list of arguments.
 $event = new UserLoginEvent($account, ['account' => $account]);
 $event_dispatcher = \Drupal::service('event_dispatcher');
