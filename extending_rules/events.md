@@ -1,6 +1,6 @@
 # Events
 
-Rules uses the (Symfony event dispatching system)[http://symfony.com/doc/current/components/event_dispatcher/introduction.html]
+Rules uses the [Symfony event dispatching system](http://symfony.com/doc/current/components/event_dispatcher/introduction.html)
 to trigger events and invoke reaction rules when an event occurs. A module that
 wants to provide events can do so without having a module dependency to Rules -
 dispatching standard Symfony events in code is enough.
@@ -49,10 +49,10 @@ its ```GenericEventSubscriber``` class which will trigger all reaction rules
 that are configured for the event.
 
 Note: Do not use ```\Drupal``` when invoking events from within a class, use
-(dependency injection)[https://www.drupal.org/node/2133171] for the event
+[dependency injection](https://www.drupal.org/node/2133171) for the event
 dispatcher service instead.
 
 Note 2: Make sure to issue a service container rebuild or
-(cache clear)[https://www.drupal.org/documentation/clearing-rebuilding-cache]
+[cache clear](https://www.drupal.org/documentation/clearing-rebuilding-cache)
 when you configure and save new reaction rules, so that the event registration
 is picked up.
