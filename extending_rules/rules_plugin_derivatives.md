@@ -1,6 +1,6 @@
 #Rules Plugin Derivatives
 
-The Plug-in System of Drupal 8 provides a mechanism called [Plugin Derivates](https://www.drupal.org/node/1653226). This powerful concept allows a single plugin class to expose multiple plugins to the user interface.
+The Plug-in System of Drupal 8 provides a mechanism called [Plugin Derivatives](https://www.drupal.org/node/1653226). This powerful concept allows a single plugin class to expose multiple plugins to the user interface.
 
 In Rules, currently we use plugin derivates whenever dealing with entities: Instead of exposing a single "Create a new Entity" action, the user is presented with options like "Create a new Node", "Create a new Taxonomy Term" or "Create a new User".
 
