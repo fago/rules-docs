@@ -20,7 +20,7 @@ After your code has been reviewed, you might be asked to perform some changes an
 
 After some time your forked repository and the original one(called *upstream*) will eventually get out of sync leaving you with an old, unsupported version. In order to keep that up to date, you'll need to *fetch* (i.e: downloading without touching the code on your computer) the latest commits and then *merge* them in the branch you need, which most likely will be **8.x-3.x**. So enter your Rules module's directory and type:
 
-    git remote add upstream git@github.com:fago/rules.git
+    git remote add upstream https://github.com/fago/rules.git
 
 
 This command will add the original Rules' repository reference to your local repository(you don't have to repeat it all the time, just the first one will do).
