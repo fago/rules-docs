@@ -5,7 +5,7 @@ installation and a checkout of the Rules module in the modules folder.
 
 #### PHPUnit
 
-    ./core/vendor/phpunit/phpunit/phpunit -c ./core/phpunit.xml.dist ./modules/rules
+    ./vendor/phpunit/phpunit/phpunit -c ./core/phpunit.xml.dist ./modules/rules
 
 #### Simpletest
 
