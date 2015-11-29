@@ -44,3 +44,13 @@ And that's it! Your repository is up to date again so that you can start develop
   your commits: you can look at the [Symfony documentation](http://symfony.com/doc/current/cmf/contributing/commits.html)
   or at the [Git book](http://git-scm.com/book/en/Git-Tools-Rewriting-History#Changing-Multiple-Commit-Messages)
   for more information on how to do that.
+
+### Taking over a stalled pull request
+
+Sometimes a pull request gets stalled, and you want to move the issue forward.
+In order to get the code from that pull request in a branch of your fork, follow
+the steps for [Checking out pull requests locally](https://help.github.com/articles/checking-out-pull-requests-locally/).
+
+Then you can submit a new pull request with your additional changes that
+supersedes the existing one. Make sure to leave a comment at the old pull
+request that you are picking up the work.
