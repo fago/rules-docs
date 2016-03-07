@@ -20,10 +20,15 @@ To implement a Rules Condition Plugin, place your plugin code under the namespac
 class NodeIsSticky extends RulesConditionBase {
 
   /**
-   * {@inheritdoc}
+   * Check if the given node is sticky.
+   *
+   * @param \Drupal\node\NodeInterface $node
+   *   The node to check.
+   *
+   * @return bool
+   *   TRUE if the node is sticky.
    */
-  public function evaluate() {
-    $node = $this->getContextValue('node');
+  protected function doEvaluate(NodeInterface $node) {
     return $node->isSticky();
   }
 
