@@ -1,9 +1,6 @@
 # Events
 
-Rules uses the [Symfony event dispatching system](http://symfony.com/doc/current/components/event_dispatcher/introduction.html)
-to trigger events and invoke reaction rules when an event occurs. A module that
-wants to provide events can do so without having a module dependency to Rules -
-dispatching standard Symfony events in code is enough.
+Rules uses the [Symfony event dispatching system](http://symfony.com/doc/current/components/event_dispatcher/introduction.html) to trigger events and invoke reaction rules when an event occurs. A module that wants to provide events can do so without having a module dependency to Rules -dispatching standard Symfony events in code is enough.
 
 In order to make an event known to Rules a *.rules.events.yml file has to be
 provided to register the event(s). Example from Rules itself:
@@ -18,8 +15,7 @@ rules_user_login:
       label: 'Logged in user'
 ```
 
-This entry registers an event called "rules_user_login" which has one context
-parameter called "account".
+This entry registers an event called "rules_user_login" which has one context parameter called "account".
 
 Next, an event class should be declared (you can also use Symfony's
 ```GenericEvent``` directly, but an explicit class is encouraged):
