@@ -1,16 +1,20 @@
 # Rules Action Plugins
 
-To implement a Rules Action Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\Action\``` in ```{module_name}/src/Plugin/Action```, for example:
+To implement a Rules Action Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\RulesAction\``` in ```{module_name}/src/Plugin/RulesAction```, for example:
 
 ```php
 /**
  * Provides a 'Delete entity' action.
  *
- * @Action(
+ * @RulesAction(
  *   id = "rules_entity_delete",
  *   label = @Translation("Delete entity"),
  *   category = @Translation("Entity"),
- *   context = {...}
+ *   context = {
+ *     "entity" = @ContextDefinition("entity",
+ *       label = @Translation("Entity"),
+ *       description = @Translation("Specifies the entity, which should be deleted permanently.")
+ *     )
  *   }
  * )
  */
