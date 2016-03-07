@@ -11,6 +11,5 @@
    * [Events](extending_rules/events.md)
    * [Rules Expression Plugins](extending_rules/rules_expression_plugins.md)
    * [Rules Data Processor Plugins](extending_rules/rules_data_processor_plugins.md)
-   * [Providing Context to Rules Plugins](extending_rules/providing_context_to_rules_plugins.md)
    * [Rules Plugin Derivatives](extending_rules/rules_plugin_derivatives.md)
 
