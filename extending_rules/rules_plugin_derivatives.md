@@ -1,4 +1,4 @@
-#Rules Plugin Derivatives
+#Rules Plugin Derivatives Policy
 
 The Plug-in System of Drupal 8 provides a mechanism called [Plugin Derivatives](https://www.drupal.org/node/1653226). This powerful concept allows a single plugin class to expose multiple plugins to the user interface.
 
