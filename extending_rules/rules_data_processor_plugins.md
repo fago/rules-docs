@@ -1,6 +1,6 @@
 # Rules Data Processor Plugins
 
-TODO: This should be updated to data filter plugins instead.
+TODO: This should be updated to show implementing data filter plugins instead.
 Data processors are for processing the values resulting from the configured data selection.
 
 To implement a Rules Data Processor Plugin, place your plugin code under the namespace ```\Drupal\{module_name}\Plugin\RulesDataProcessor\``` in ```{module_name}/src/Plugin/RulesDataProcessor```, for example:
