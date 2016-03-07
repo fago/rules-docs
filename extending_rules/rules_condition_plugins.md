@@ -10,7 +10,11 @@ To implement a Rules Condition Plugin, place your plugin code under the namespac
  *   id = "rules_node_is_sticky",
  *   label = @Translation("Node is sticky"),
  *   category = @Translation("Node"),
- *   context = {...}
+ *   context = {
+ *     "node" = @ContextDefinition("entity:node",
+ *       label = @Translation("Node")
+ *     )
+ *   }
  * )
  */
 class NodeIsSticky extends RulesConditionBase {
