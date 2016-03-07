@@ -21,10 +21,12 @@ To implement a Rules Action Plugin, place your plugin code under the namespace `
 class EntityDelete extends RulesActionBase {
 
   /**
-   * {@inheritdoc}
+   * Deletes the Entity.
+   *
+   * @param \Drupal\Core\Entity\EntityInterface $entity
+   *    The entity to be deleted.
    */
-  public function execute() {
-    $entity = $this->getContextValue('entity');
+  protected function doExecute(EntityInterface $entity) {
     $entity->delete();
   }
 
