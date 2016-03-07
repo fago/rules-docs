@@ -9,7 +9,7 @@ installation and a checkout of the Rules module in the modules folder.
 
 #### Simpletest
 
-Make sure simpletest is enabled:
+Rules 8.x-3.x does not make use of the Simpletest framework any more, but uses solely PHPUnit based tests. However, you can still run the PHPUnit based tests via the Simpletest framework of Drupal 8:
 
     drush en -y simpletest rules
 
