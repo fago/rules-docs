@@ -11,7 +11,7 @@
     ],
     "pluginsConfig": {
         "edit-link": {
-            "base": "https://github.com/fago/rules-docs/",
+            "base": "https://github.com/fago/rules-docs/blob/8.x-3.x/",
             "label": "Edit This Page"
         }
     }
