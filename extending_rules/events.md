@@ -49,15 +49,14 @@ class UserLoginEvent extends Event {
 
 }
 ```
+The values for the specified context have to be available either as public properties or via a getter method that is named "get{{ CONTEXT_NAME }}".
 
-Invoking the event looks like this:
+Invoking or dispatching the event looks like this:
 
 ```php
-// Set the account twice on the event: as the main subject but also in the
-// list of arguments.
-$event = new UserLoginEvent($account, ['account' => $account]);
-$event_dispatcher = \Drupal::service('event_dispatcher');
-$event_dispatcher->dispatch(UserLoginEvent::EVENT_NAME, $event);
+  $event = new UserLoginEvent($account);
+  $event_dispatcher = \Drupal::service('event_dispatcher');
+  $event_dispatcher->dispatch(UserLoginEvent::EVENT_NAME, $event);
 ```
 
 An instance of the ```UserLoginEvent``` class is created, passing along the
