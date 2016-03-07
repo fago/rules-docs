@@ -9,11 +9,9 @@ and especially at its [System requirements section](https://drupal.org/requireme
 
 ### Drush
 
-Installing the powerful Drupal Shell is not mandatory but it can definitely be helpful during development. At the moment of writing, there's no stable version of Drush for Drupal 8 yet -at the moment of writing the currently tagged release is 7.0.0-alpha3- so depending if you feel brave or not, you can choose either the tagged release or the bleeding development edge.
-One way or another, the recommended way to install it is through composer: **be aware that the installation is going to be global and therefore will probably override your current, stable one**. Unfortunately, due to a (temporary?) dependency-clash between Drupal 8 and Drush 7, it's not possible to just install it within your Drupal 8's vendors directory.
-So fire the following in your terminal:
+Installing the powerful Drupal Shell is not mandatory but it can definitely be helpful during development. For working with Drupal 8, you'll need a Drupal 8 compatible Drush version. The recommended way to install it is through composer, but be aware that the installation is going to be global and therefore will probably override your current one.
 
-    composer global require drush/drush=dev-master
+    composer global require drush/drush=8.*
 
 Et voilà, the Drupal 8-compatible version of Drush will be quickly installed for you.
 
