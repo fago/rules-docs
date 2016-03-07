@@ -66,10 +66,5 @@ its ```GenericEventSubscriber``` class which will trigger all reaction rules
 that are configured for the event.
 
 Note: Do not use ```\Drupal``` when invoking events from within a class, use
-[dependency injection](https://www.drupal.org/node/2133171) for the event
-dispatcher service instead.
+[dependency injection](https://www.drupal.org/node/2133171) for the event dispatcher service instead.
 
-Note 2: Make sure to issue a service container rebuild or
-[cache clear](https://www.drupal.org/documentation/clearing-rebuilding-cache)
-when you configure and save new reaction rules, so that the event registration
-is picked up.
