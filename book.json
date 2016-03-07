@@ -9,5 +9,10 @@
     "plugins": [
         "edit-link"
     ],
-    "pluginsConfig": {}
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/fago/rules-docs/",
+            "label": "Edit This Page"
+        }
+    }
 }
