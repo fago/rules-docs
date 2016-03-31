@@ -4,7 +4,7 @@ Note: This documentation can be read online at [docs.d8rules.org](http://docs.d8
 
 ## Introduction
 
-The [Rules module](http://drupal.org/project/rules) allows site administrators to build flexible workflows using events, conditions, and actions (known as reactive or [ECA rules](http://http://en.wikipedia.org/wiki/Event_condition_action)).
+The [Rules module](http://drupal.org/project/rules) allows site administrators to build flexible workflows using events, conditions, and actions (known as reactive or [ECA rules](https://en.wikipedia.org/wiki/Event_Condition_Action)).
 
 Rules can react to events occurring on your site, such as a user logging in or a node being submitted, and it can perform customized follow-up actions such as redirecting to a certain page or setting field values.
 
