@@ -49,7 +49,7 @@ the name of your GitHub user):
 Once you did all of that, symlink the cloned rules directory under the Drupal's ``modules``
 directory.
 
-**NOTE: directly cloning Rules withing Drupal's ``modules`` directory is discouraged for development.**
+**NOTE: directly cloning Rules within Drupal's ``modules`` directory is discouraged for development.**
 
 ![Drupal 8 modules page](images/forked-repository.jpg)
 
